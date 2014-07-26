@@ -709,7 +709,7 @@ html {
   font-size: 30px;
   height: 72px;
   width: 72px;
-  line-height: 72px;
+  line-height: 64px;
   border-radius: 50%;
   -webkit-transition: all .2s;
   -moz-transition: all .2s;
