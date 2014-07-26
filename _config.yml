@@ -20,7 +20,7 @@ url:       		    http://www.onscalability.com
 baseurl:			    http://www.onscalability.com
 imageurl:         http://res.cloudinary.com/edgethoughts/image/fetch/f_auto,q_90/http://www.onscalability.com
 galleryimageurl:  http://res.cloudinary.com/edgethoughts/image/fetch/f_auto,w_770,q_90/http://www.onscalability.com
-mgalleryimageurl: http://res.cloudinary.com/edgethoughts/image/fetch/f_auto,w_330,q_90/http://www.onscalability.com
+mgalleryimageurl: http://res.cloudinary.com/edgethoughts/image/fetch/f_auto,w_450,q_90/http://www.onscalability.com
 avatarimageurl:   http://res.cloudinary.com/edgethoughts/image/fetch/f_auto,w_150,q_90/http://www.onscalability.com
 logoimageurl:     http://res.cloudinary.com/edgethoughts/image/fetch/f_auto,h_120,q_90/http://www.onscalability.com
 
