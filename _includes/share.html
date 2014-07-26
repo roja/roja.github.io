@@ -1,4 +1,4 @@
-{% capture canonical %}{{ site.url }}{% if site.permalink contains 'index.html' %}{{ page.url | remove: 'index.html' | strip_slash }}{% else %}{{ page.url | remove:'html' }}{% endif %}{% endcapture %}
+{% capture canonical %}{{ site.url }}{% if site.permalink contains 'index.html' %}{{ page.url | remove: 'index.html' | strip_slash }}{% else %}{{ page.url | remove:'.html' }}{% endif %}{% endcapture %}
 
 <div class="post-share text-center">
     <p class="light small">
