@@ -16,13 +16,13 @@ fin_color:        "255,255,255"
 # Change url to your domain. Leave localhost server or blank when working locally.
 # or use the hint from http://jekyllrb.com/docs/github-pages/ to keep this the same 
 # whether working locally or remotely. Start Jekyll with: jekyll serve --baseurl ''
-url:       		   http://www.onscalability.com
-baseurl:			   http://www.onscalability.com
-imageurl:        http://res.cloudinary.com/edgethoughts/image/fetch/f_auto,q_90/http://www.onscalability.com
-galleryimageurl: http://res.cloudinary.com/edgethoughts/image/fetch/f_auto,w_770,q_90/http://www.onscalability.com
-mgalleryimageurl:http://res.cloudinary.com/edgethoughts/image/fetch/f_auto,w_330,q_90/http://www.onscalability.com
-avatarimageurl:  http://res.cloudinary.com/edgethoughts/image/fetch/f_auto,w_150,q_90/http://www.onscalability.com
-logoimageurl:    http://res.cloudinary.com/edgethoughts/image/fetch/f_auto,h_120,q_90/http://www.onscalability.com
+url:       		    http://www.onscalability.com
+baseurl:			    http://www.onscalability.com
+imageurl:         http://res.cloudinary.com/edgethoughts/image/fetch/f_auto,q_90/http://www.onscalability.com
+galleryimageurl:  http://res.cloudinary.com/edgethoughts/image/fetch/f_auto,w_770,q_90/http://www.onscalability.com
+mgalleryimageurl: http://res.cloudinary.com/edgethoughts/image/fetch/f_auto,w_330,q_90/http://www.onscalability.com
+avatarimageurl:   http://res.cloudinary.com/edgethoughts/image/fetch/f_auto,w_150,q_90/http://www.onscalability.com
+logoimageurl:     http://res.cloudinary.com/edgethoughts/image/fetch/f_auto,h_120,q_90/http://www.onscalability.com
 
 # Owner/author information
 owner:
