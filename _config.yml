@@ -25,7 +25,7 @@ owner:
   avatar:         hmfaysal.jpg
   email:          roja@onscalability.com
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
-  description:    Roja Buck is Chief Architect at vouchercloud based in Bristol, UK. He spends his time, designing and building robust, scalable, low latency software architectures that interact with millions of people.
+  description:    Roja Buck is Chief Architect at vouchercloud based in Bristol, UK. <br> He spends his time, designing and building robust, scalable, low latency software architectures that interact with millions of people.
   # Social networking links used in footer. Update and remove as you like.
   # To register at HMFAYSAL SOCIAL, visit http://social.hmfaysal.tk
   twitter:        rojabuck
