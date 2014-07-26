@@ -66,6 +66,7 @@ searchButton.addClass("setup");
             }
 
       $('.search-wrapper').css({ display: "block" });
+      bs.searchform.show();
       bs.searchform.toggleClass('active');
       bs.searchform.find('input').focus();
       bs.canvas.toggleClass('search-overlay');
@@ -73,6 +74,7 @@ searchButton.addClass("setup");
     
       bs.close.on('click', function() {
         $('.search-wrapper').removeAttr( 'style' );
+        bs.searchform.hide();
         bs.searchform.toggleClass('active');
         bs.canvas.removeClass('search-overlay');
     });
