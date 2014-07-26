@@ -4051,10 +4051,13 @@ body.slide{
 @media screen and (max-width:500px){
     
     a#slide{
-        position:absolute    ;
-        left:10px;
+        position:absolute;
         }
       }
+
+          a#slide.slide{
+        left:10px
+        }
 
 
 /*      End-Responsive      */
