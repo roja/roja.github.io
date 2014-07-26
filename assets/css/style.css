@@ -451,7 +451,7 @@ html {
   width: 100%;
   height: 50%;
   padding: 24px 0;
-  margin-bottom: 72px;
+  margin-bottom: 20px;
   box-sizing: border-box;
 }
 #masthead.align-left {
@@ -580,11 +580,11 @@ html {
 /* FOOTER */
 /* ------ */
 #footer {
-  margin-top: 72px;
-  padding: 70px 0 72px;
+  margin-top: 20px;
+  padding: 20px 0 0 0;
   position: relative;
   width: 100%;
-  height: 50%;
+  height: 60%;
   display: table;
   z-index: 1;
 }
@@ -4045,13 +4045,16 @@ body.slide{
     #permalink .permalink-box{
         width:90%
         }
+      }
 
 
 @media screen and (max-width:500px){
     
     a#slide{
-        position:absolute    
+        position:absolute    ;
+        left:10px;
         }
+      }
 
 
 /*      End-Responsive      */
