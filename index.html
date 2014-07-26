@@ -144,7 +144,7 @@ tags: [Hossain, Mohd, Faysal, electrical, engineering, blog, university, pennsyl
 	        <div class="row">
 	            <article class="post post col-md-8 col-md-offset-2">
 	               <header class="post-header">
-	               		               		{% if post.photo %}<figure class="desktop-figure"><a href="{{ site.url }}{{ post.url | remove: '.html' }}"><img src="{{ site.galleryimageurl }}/images/{{ post.photo }}" alt="{{ post.title }}" itemprop="image"></a></figure>{% else %}<figure  class="desktop-figure"><a href="{{ site.url }}{{ post.url | remove: '.html' }}"><img src="{{ site.galleryimageurl }}/images/{{ post.imagefeature }}" alt="{{ post.title }}" itemprop="image"></a></figure>{% endif %}3
+	               		               		{% if post.photo %}<figure class="desktop-figure"><a href="{{ site.url }}{{ post.url | remove: '.html' }}"><img src="{{ site.galleryimageurl }}/images/{{ post.photo }}" alt="{{ post.title }}" itemprop="image"></a></figure>{% else %}<figure  class="desktop-figure"><a href="{{ site.url }}{{ post.url | remove: '.html' }}"><img src="{{ site.galleryimageurl }}/images/{{ post.imagefeature }}" alt="{{ post.title }}" itemprop="image"></a></figure>{% endif %}
 
 	               		{% if post.photo %}<figure class="mobile-figure"><a href="{{ site.url }}{{ post.url | remove: '.html' }}"><img src="{{ site.mgalleryimageurl }}/images/{{ post.photo }}" alt="{{ post.title }}" itemprop="image"></a></figure>{% else %}<figure  class="mobile-figure"><a href="{{ site.url }}{{ post.url | remove: '.html' }}"><img src="{{ site.mgalleryimageurl }}/images/{{ post.imagefeature }}" alt="{{ post.title }}" itemprop="image"></a></figure>{% endif %}
 	                    {% if post.link %}
