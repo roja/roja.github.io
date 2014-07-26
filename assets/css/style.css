@@ -4000,11 +4000,11 @@ body.slide{
     background:rgba(0,0,0,.2)
     }
 
-    figure.mobile-figure {
+    .mobile-figure {
   display: none;
 }
 
-figure.desktop-figure {
+.desktop-figure {
   display: block;
 }
 
@@ -4080,11 +4080,11 @@ figure.desktop-figure {
   margin-top: 20px;
 }
 
-figure.mobile-figure {
+.mobile-figure {
   display: block;
 }
 
-figure.desktop-figure {
+.desktop-figure {
   display: none;
 }
 
