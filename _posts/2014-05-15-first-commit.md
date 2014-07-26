@@ -1,6 +1,6 @@
 ---
 layout: post
-title: First Commit
+title: First Commits
 description: "Its ON, baby"
 headline: "Let's Fire up the Engines"
 categories: personal
