@@ -32,14 +32,14 @@ $("a#click-pages").click(function(){
 {% if site.search %}
 <!-- Jekyll Simple Search option -->
 <script>
-  $(document).ready(function() {
-      $('.search-field').simpleJekyllSearch({
-          jsonFile : '{{ site.url }}/search.json',
-          searchResults : '.search-results',
-          template : '<li><article><a href="{url}">{title} <span class="entry-date"><time datetime="{date}">{shortdate}</time></span></a></article></li>',
-          noResults: '<p>Nothing found.</p>'
-        });
-  });
+  // $(document).ready(function() {
+  //     $('.search-field').simpleJekyllSearch({
+  //         jsonFile : '{{ site.url }}/search.json',
+  //         searchResults : '.search-results',
+  //         template : '<li><article><a href="{url}">{title} <span class="entry-date"><time datetime="{date}">{shortdate}</time></span></a></article></li>',
+  //         noResults: '<p>Nothing found.</p>'
+  //       });
+  // });
 
   (function( $, window, undefined ) {
     
@@ -51,6 +51,20 @@ $("a#click-pages").click(function(){
       };
     
     bs.dothis.on('click', function() {
+
+var searchButton = $('.dosearch');
+
+            if (!searchButton.hasClass("setup")) {
+      $('.search-field').simpleJekyllSearch({
+          jsonFile : '{{ site.url }}/search.json',
+          searchResults : '.search-results',
+          template : '<li><article><a href="{url}">{title} <span class="entry-date"><time datetime="{date}">{shortdate}</time></span></a></article></li>',
+          noResults: '<p>Nothing found.</p>'
+        });
+
+searchButton.addClass("setup");
+            }
+
       $('.search-wrapper').css({ display: "block" });
       bs.searchform.toggleClass('active');
       bs.searchform.find('input').focus();
