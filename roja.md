@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /roja/index.html
+permalink: /roja.html
 title: Hossain Mohd Faysal
 tags: [Hossain, Mohd, Faysal, hmfaysal]
 image:
