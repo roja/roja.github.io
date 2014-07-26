@@ -3851,7 +3851,8 @@ a#slide{
     top:10px;
     left:10px;
     text-align:center;
-    font:22px/40px "icon";
+    vertical-align:middle;
+    font-size:16px;
     color:#fff;
     background:#262626;
     border-radius:3px;
