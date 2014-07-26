@@ -5,12 +5,12 @@ layout: nil
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     {% for link in site.links %}{% if link.external %}{% else %} 
     <url>
-        <loc>{{ site.url }}{{ link.url }}</loc>
+        <loc>{{ site.url }}{{ link.url | remove: '.html' }}</loc>
     </url>{% endif %}{% endfor %}
     
     {% for post in site.posts %}
     <url>
-        <loc>{{ site.url }}{{ post.url }}</loc>
+        <loc>{{ site.url }}{{ post.url | remove: '.html' }}</loc>
     </url>
     {% endfor %}
 </urlset>
