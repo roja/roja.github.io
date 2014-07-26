@@ -3898,7 +3898,6 @@ a#slide.slide:after{
 
 #sidebar h2{
     margin:0 0 16px !important;
-    font:900 16px/1em "Lato",sans-serif;
     color:#fff;
     }
 
@@ -3922,7 +3921,6 @@ a#slide.slide:after{
 
 #sidebar #navigation li a{
     padding:0 0 18px;
-    font:700 16px/1em "Cambria";
     text-transform: uppercase;;
     color:#b3b3b1
     }
@@ -3957,7 +3955,6 @@ a#slide.slide:after{
 #sidebar #navigation #slide-filter li a{
     display:block;
     padding:0;
-    font:700 14px/1em "Lato"
     }
 
 #sidebar #navigation #slide-pages li:last-child,
