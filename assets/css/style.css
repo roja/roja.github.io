@@ -4000,6 +4000,14 @@ body.slide{
     background:rgba(0,0,0,.2)
     }
 
+    figure.mobile-figure {
+  display: none;
+}
+
+figure.desktop-figure {
+  display: block;
+}
+
 
 
 /*      End-Animation       */
@@ -4072,6 +4080,13 @@ body.slide{
   margin-top: 20px;
 }
 
+figure.mobile-figure {
+  display: block;
+}
+
+figure.desktop-figure {
+  display: none;
+}
 
 }
 
