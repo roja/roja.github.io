@@ -237,7 +237,7 @@ pre {
 .super {
   font-size: 48px;
   font-weight: bold;
-  line-height: 1.3;
+  line-height: 1.3em;
   text-transform: uppercase;
 }
 .super.text-center small {
