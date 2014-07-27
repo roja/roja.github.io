@@ -3,6 +3,7 @@ layout: page
 permalink: /about.html
 title: Roja Buck
 tags: [about, me, roja buck, vouchercloud, onscalability]
+headline: Who's behind the curtain?
 image:
   feature: roja-and-tash-in-flam.jpg
 ---
