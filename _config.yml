@@ -1,7 +1,7 @@
 title:            "On Scalability"
 description:      ""
 logo:             omikron.png
-disqus_shortname: hmfaysal
+disqus_shortname: onscalability
 # Assign a default image for your site's header and footer
 default_bg:       default_bg1.jpg
 search:           true
@@ -59,11 +59,11 @@ links:
     url: /
     external: false
     icon: home
-  - title: Categories
+  - title: categories
     url: /categories
-  - title: Tags
+  - title: tags
     url: /tags
-  - title: who is roja?
+  - title: about
     url: /roja
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
