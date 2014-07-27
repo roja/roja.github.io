@@ -53,7 +53,7 @@ Description: Awesome dude, awesome life
 {% if site.description %}
     <div class="inner">
         <div class="container">
-            <a class="brand light" href="{{ site.url }}" role="banner" itemprop="url">
+            <a class="brand light" href="{{ site.url }}" itemprop="url">
 
                 {% if site.logo %}<img itemprop="logo" src="{{ site.logoimageurl }}/images/{{ site.logo }}" alt="{{ site.title }} Logo" />{% endif %}
 
@@ -62,7 +62,7 @@ Description: Awesome dude, awesome life
             </h1>
                 
             </a>
-            {% if site.description %}
+            {% if site.description != "" %}
             <h2 class="blog-description light bordered bordered-top" itemprop="description">
                 {{ site.description }}
             </h2>
