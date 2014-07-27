@@ -28,7 +28,7 @@ tags: [Hossain, Mohd, Faysal, electrical, engineering, blog, university, pennsyl
 	                    </p>
 	                    <ul class="social-mini text-center">
 	                        <li>
-	                            <a href="https://twitter.com/intent/tweet?text=%22{{ post.title | cgi_escape }}%22%20{{ site.url }}{{ post.url  | remove: '.html' }}%20via%20%40{{ site.owner.twitter }}"
+	                            <a href="https://twitter.com/intent/tweet?text=%22{{ post.title | uri_escape }}%22%20{{ site.url }}{{ post.url  | remove: '.html' }}%20via%20%40{{ site.owner.twitter }}"
 	                            onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" data-toggle="tooltip" title="Share on Twitter">
 	                                <i class="icon-twitter"></i>
 	                            </a>
@@ -73,7 +73,7 @@ tags: [Hossain, Mohd, Faysal, electrical, engineering, blog, university, pennsyl
 	                    </p>
 	                    <ul class="social-mini text-center">
 	                        <li>
-	                            <a href="https://twitter.com/intent/tweet?text=%22{{ post.title | cgi_escape }}%22%20{{ site.url }}{{ post.url  | remove: '.html' }}%20via%20%40{{ site.owner.twitter }}"
+	                            <a href="https://twitter.com/intent/tweet?text=%22{{ post.title | uri_escape }}%22%20{{ site.url }}{{ post.url  | remove: '.html' }}%20via%20%40{{ site.owner.twitter }}"
 	                            onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" data-toggle="tooltip" title="Share on Twitter">
 	                                <i class="icon-twitter"></i>
 	                            </a>
@@ -443,7 +443,7 @@ tags: [Hossain, Mohd, Faysal, electrical, engineering, blog, university, pennsyl
 	                    </p>
 	                    <ul class="social-mini text-center">
 	                        <li>
-	                            <a href="https://twitter.com/intent/tweet?text=%22{{ post.title | cgi_escape }}%22%20{{ site.url }}{{ post.url | remove: '.html' }}%20via%20%40{{ site.owner.twitter }}"
+	                            <a href="https://twitter.com/intent/tweet?text=%22{{ post.title | uri_escape }}%22%20{{ site.url }}{{ post.url | remove: '.html' }}%20via%20%40{{ site.owner.twitter }}"
 	                            onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" data-toggle="tooltip" title="Share on Twitter">
 	                                <i class="icon-twitter"></i>
 	                            </a>
@@ -488,7 +488,7 @@ tags: [Hossain, Mohd, Faysal, electrical, engineering, blog, university, pennsyl
 	                    </p>
 	                    <ul class="social-mini text-center">
 	                        <li>
-	                            <a href="https://twitter.com/intent/tweet?text=%22{{ post.title | cgi_escape }}%22%20{{ site.url }}{{ post.url | remove: '.html' }}%20via%20%40{{ site.owner.twitter }}"
+	                            <a href="https://twitter.com/intent/tweet?text=%22{{ post.title | uri_escape }}%22%20{{ site.url }}{{ post.url | remove: '.html' }}%20via%20%40{{ site.owner.twitter }}"
 	                            onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" data-toggle="tooltip" title="Share on Twitter">
 	                                <i class="icon-twitter"></i>
 	                            </a>
@@ -619,7 +619,7 @@ tags: [Hossain, Mohd, Faysal, electrical, engineering, blog, university, pennsyl
 	            </article>
 	        </div>
 	        {% endif %}
-	        {% if post.type != 'video' and post.type != 'status' and post.type != 'quote' and post.type != 'photo' %}
+	        {% if post.type != 'video' and post.type != 'status' and post.type != 'quote' and post.type != 'photo' %}cgi
 	        <div class="row">
 	            <article class="post post col-md-8 col-md-offset-2">
 	               <header class="post-header">
