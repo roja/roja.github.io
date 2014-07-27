@@ -76,8 +76,8 @@
                                 {% endif %}
                                 in
                                 <span class="post-tags">
-                                {% for tag in page.categories %}
-                                    <a href="{{ site.url }}/categories#{{ page.categories | cgi_encode }}" data-toggle="tooltip" title="Other posts from the {{ tag | capitalize }} category" rel="tag">{{ tag | capitalize }}</a>
+                                {% for category in page.categories %}
+                                    <a href="{{ site.url }}/categories#{{ page.category | cgi_encode }}" data-toggle="tooltip" title="Other posts from the {{ tag | capitalize }} category" rel="tag">{{ tag | capitalize }}</a>
                                     {% unless forloop.last %}
                                         &nbsp;&bull;&nbsp;
                                     {% endunless %}
