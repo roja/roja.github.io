@@ -24,7 +24,7 @@
                             {% endif %}
                             {% if page.link %}
                                 <h2 class="post-title text-center hyper lighter entry-title" itemprop="headline">
-                                    <a href="{{ page.link }}" data-toggle="tooltip" title="Go to {{ page.link }}" style="color: #fff; background-color: #45ADA8; border-radius: 4px; padding: 10px">
+                                    <a href="{{ page.link | cgi_escape }}" data-toggle="tooltip" title="Go to {{ page.link }}" style="color: #fff; background-color: #45ADA8; border-radius: 4px; padding: 10px">
                                         {% if page.type == 'quote' %}
                                             <i class="icon-quote-left"></i>
                                         {% endif %}
@@ -77,7 +77,7 @@
                                 in
                                 <span class="post-tags">
                                 {% for tag in page.categories %}
-                                    <a href="{{ site.url }}/categories#{{ page.categories | cgi_encode }}" data-toggle="tooltip" title="Other posts from the {{ tag | capitalize }} category" rel="tag">{{ tag | capitalize }}</a>
+                                    <a href="{{ site.url }}/categories#{{ page.categories | cgi_escape }}" data-toggle="tooltip" title="Other posts from the {{ tag | capitalize }} category" rel="tag">{{ tag | capitalize }}</a>
                                     {% unless forloop.last %}
                                         &nbsp;&bull;&nbsp;
                                     {% endunless %}
@@ -112,7 +112,7 @@
                                     <i class="icon-tags"></i>
                                     Tagged with
                                     {% for tag in page.tags %}
-                                        <a href="{{ site.url }}/tags#{{ tag | cgi_encode }}" data-toggle="tooltip" title="Posts tagged with {{ tag }}" rel="tag">{{ tag }}</a>
+                                        <a href="{{ site.url }}/tags#{{ tag | cgi_escape }}" data-toggle="tooltip" title="Posts tagged with {{ tag }}" rel="tag">{{ tag }}</a>
                                         {% unless forloop.last %}
                                             &nbsp;&bull;&nbsp;
                                         {% endunless %}
