@@ -7,7 +7,7 @@ image:
   feature: roja-and-tash-in-flam.jpg
 ---
 <figure>
-  <img src="{{ site.url }}/images/roja-and-tash-in-flam.jpg" alt="My wife Natasha and I in Flåm">
+  <img src="{{ site.galleryimageurl }}/images/roja-and-tash-in-flam.jpg" alt="My wife Natasha and I in Flåm">
   <figcaption>My wife Natasha and I in Flåm</figcaption>
 </figure>
 
