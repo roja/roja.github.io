@@ -95,7 +95,7 @@ tags: [Hossain, Mohd, Faysal, electrical, engineering, blog, university, pennsyl
 	                        Status posted &#64; <time datetime="{{ post.date | date_to_xmlschema }}" class="post-time">{{ post.date | date: "%d %b %Y" }}</time>{% if post.modified %}{% if modifiedtime != posttime %} and <code>last modified on <time datetime="{{ post.modified | date: "%Y-%m-%d" }}" itemprop="dateModified">{{ post.modified | date: "%d %b %Y" }}</time></code>{% endif %}{% endif %}
 	                        in 
                                 <span class="post-tags">
-                                {% for tag in page.categories %}
+                                {% for tag in post.categories %}
                                     <a href="{{ site.url }}/categories#{{ tag | uri_escape }}" data-toggle="tooltip" title="Posts from the {{ tag }} category" rel="tag">{{ tag }}</a>
                                     {% unless forloop.last %}
                                         &nbsp;&bull;&nbsp;
@@ -125,7 +125,7 @@ tags: [Hossain, Mohd, Faysal, electrical, engineering, blog, university, pennsyl
 	                        <time datetime="{{ post.date | date_to_xmlschema }}" class="post-time">{{ post.date | date: "%d %b %Y" }}</time>{% if post.modified %}{% if modifiedtime != posttime %} and <code>last modified on <time datetime="{{ post.modified | date: "%Y-%m-%d" }}" itemprop="dateModified">{{ post.modified | date: "%d %b %Y" }}</time></code>{% endif %}{% endif %}
 	                        in 
                                 <span class="post-tags">
-                                {% for tag in page.categories %}
+                                {% for tag in post.categories %}
                                     <a href="{{ site.url }}/categories#{{ tag | uri_escape }}" data-toggle="tooltip" title="Posts from the {{ tag }} category" rel="tag">{{ tag }}</a>
                                     {% unless forloop.last %}
                                         &nbsp;&bull;&nbsp;
@@ -177,7 +177,7 @@ tags: [Hossain, Mohd, Faysal, electrical, engineering, blog, university, pennsyl
 	                        <time datetime="{{ post.date | date_to_xmlschema }}" class="post-time">{{ post.date | date: "%d %b %Y" }}</time>{% if post.modified %}{% if modifiedtime != posttime %} and <code>last modified on <time datetime="{{ post.modified | date: "%Y-%m-%d" }}" itemprop="dateModified">{{ post.modified | date: "%d %b %Y" }}</time></code>{% endif %}{% endif %}
 	                        in 
                                 <span class="post-tags">
-                                {% for tag in page.categories %}
+                                {% for tag in post.categories %}
                                     <a href="{{ site.url }}/categories#{{ tag | uri_escape }}" data-toggle="tooltip" title="Posts from the {{ tag }} category" rel="tag">{{ tag }}</a>
                                     {% unless forloop.last %}
                                         &nbsp;&bull;&nbsp;
@@ -221,7 +221,7 @@ tags: [Hossain, Mohd, Faysal, electrical, engineering, blog, university, pennsyl
 	                        <time datetime="{{ post.date | date_to_xmlschema }}" class="post-time">{{ post.date | date: "%d %b %Y" }}</time>{% if post.modified %}{% if modifiedtime != posttime %} and <code>last modified on <time datetime="{{ post.modified | date: "%Y-%m-%d" }}" itemprop="dateModified">{{ post.modified | date: "%d %b %Y" }}</time></code>{% endif %}{% endif %}
 	                        in 
                                 <span class="post-tags">
-                                {% for tag in page.categories %}
+                                {% for tag in post.categories %}
                                     <a href="{{ site.url }}/categories#{{ tag | uri_escape }}" data-toggle="tooltip" title="Posts from the {{ tag }} category" rel="tag">{{ tag }}</a>
                                     {% unless forloop.last %}
                                         &nbsp;&bull;&nbsp;
@@ -510,7 +510,7 @@ tags: [Hossain, Mohd, Faysal, electrical, engineering, blog, university, pennsyl
 	                        Status posted &#64; <time datetime="{{ post.date | date_to_xmlschema }}" class="post-time">{{ post.date | date: "%d %b %Y" }}</time>{% if post.modified %}{% if modifiedtime != posttime %} and <code>last modified on <time datetime="{{ post.modified | date: "%Y-%m-%d" }}" itemprop="dateModified">{{ post.modified | date: "%d %b %Y" }}</time></code>{% endif %}{% endif %}
 	                        in 
                                 <span class="post-tags">
-                                {% for tag in page.categories %}
+                                {% for tag in post.categories %}
                                     <a href="{{ site.url }}/categories#{{ tag | uri_escape }}" data-toggle="tooltip" title="Posts from the {{ tag }} category" rel="tag">{{ tag }}</a>
                                     {% unless forloop.last %}
                                         &nbsp;&bull;&nbsp;
@@ -540,7 +540,7 @@ tags: [Hossain, Mohd, Faysal, electrical, engineering, blog, university, pennsyl
 	                        <time datetime="{{ post.date | date_to_xmlschema }}" class="post-time">{{ post.date | date: "%d %b %Y" }}</time>{% if post.modified %}{% if modifiedtime != posttime %} and <code>last modified on <time datetime="{{ post.modified | date: "%Y-%m-%d" }}" itemprop="dateModified">{{ post.modified | date: "%d %b %Y" }}</time></code>{% endif %}{% endif %}
 	                        in 
                                 <span class="post-tags">
-                                {% for tag in page.categories %}
+                                {% for tag in post.categories %}
                                     <a href="{{ site.url }}/categories#{{ tag | uri_escape }}" data-toggle="tooltip" title="Posts from the {{ tag }} category" rel="tag">{{ tag }}</a>
                                     {% unless forloop.last %}
                                         &nbsp;&bull;&nbsp;
@@ -592,7 +592,7 @@ tags: [Hossain, Mohd, Faysal, electrical, engineering, blog, university, pennsyl
 	                        <time datetime="{{ post.date | date_to_xmlschema }}" class="post-time">{{ post.date | date: "%d %b %Y" }}</time>{% if post.modified %}{% if modifiedtime != posttime %} and <code>last modified on <time datetime="{{ post.modified | date: "%Y-%m-%d" }}" itemprop="dateModified">{{ post.modified | date: "%d %b %Y" }}</time></code>{% endif %}{% endif %}
 	                        in 
                                 <span class="post-tags">
-                                {% for tag in page.categories %}
+                                {% for tag in post.categories %}
                                     <a href="{{ site.url }}/categories#{{ tag | uri_escape }}" data-toggle="tooltip" title="Posts from the {{ tag }} category" rel="tag">{{ tag }}</a>
                                     {% unless forloop.last %}
                                         &nbsp;&bull;&nbsp;
