@@ -76,7 +76,12 @@
                                 {% endif %}
                                 in
                                 <span class="post-tags">
-                                    <a href="{{ site.url }}/categories#{{ page.category | uri_escape }}" data-toggle="tooltip" title="Other posts from the {{ page.category }} category" rel="tag">{{ tag | capitalize }}</a>
+                                {% for tag in page.categories %}
+                                    <a href="{{ site.url }}/categories#{{ tag | uri_escape }}" data-toggle="tooltip" title="Posts from the {{ tag }} category" rel="tag">{{ tag }}</a>
+                                    {% unless forloop.last %}
+                                        &nbsp;&bull;&nbsp;
+                                    {% endunless %}
+                                {% endfor %}
                                 </span>
                                 {% if site.readtime %}
                                     <span class="post-tags">
