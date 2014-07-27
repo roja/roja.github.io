@@ -62,9 +62,11 @@ Description: Awesome dude, awesome life
             </h1>
                 
             </a>
+            {% if site.description %}
             <h2 class="blog-description light bordered bordered-top" itemprop="description">
                 {{ site.description }}
             </h2>
+            {% endif %}
         </div>
     </div>
     {% else %}
