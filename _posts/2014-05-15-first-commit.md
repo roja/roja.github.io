@@ -3,7 +3,7 @@ layout: post
 title: First Commits
 description: "Its ON, baby"
 headline: "Let's Fire up the Engines"
-categories: personal
+category: personal
 tags: 
   - blogging
   - jekyll
