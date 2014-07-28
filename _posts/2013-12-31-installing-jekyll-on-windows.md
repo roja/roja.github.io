@@ -6,6 +6,8 @@ headline:
 category: Theme-Setup
 tags: [Jekyll, Installation]
 imagefeature: picture-25.jpg
+imagecredit: spreadeffect.com
+imagecreditlink: "http://www.spreadeffect.com/blog/improve-website-speed/"
 comments: true
 mathjax: 
 ---
