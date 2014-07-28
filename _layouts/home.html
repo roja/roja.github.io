@@ -53,15 +53,17 @@ Description: Awesome dude, awesome life
 {% if site.description %}
     <div class="inner">
         <div class="container">
+        <h1 itemprop="name">
             <a class="brand light" href="{{ site.url }}" itemprop="url">
 
                 {% if site.logo %}<img itemprop="logo" src="{{ site.logoimageurl }}/images/{{ site.logo }}" alt="{{ site.title }} Logo" />{% endif %}
 
-            <h1 class="blog-title light" itemprop="name">
+<!--             <h1 class="blog-title light" itemprop="name">
                 {{ site.title }}
-            </h1>
+            </h1> -->
                 
             </a>
+        </h1>
             {% if site.description != "" %}
             <h2 class="blog-description light bordered bordered-top" itemprop="description">
                 {{ site.description }}
