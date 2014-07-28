@@ -23,7 +23,7 @@ bgimageurl:       http://res.cloudinary.com/edgethoughts/image/fetch/f_auto,q_60
 galleryimageurl:  http://res.cloudinary.com/edgethoughts/image/fetch/f_auto,w_770,q_90/http://www.onscalability.com
 mgalleryimageurl: http://res.cloudinary.com/edgethoughts/image/fetch/f_auto,w_450,q_90/http://www.onscalability.com
 avatarimageurl:   http://res.cloudinary.com/edgethoughts/image/fetch/f_auto,w_150,q_90/http://www.onscalability.com
-logoimageurl:     http://res.cloudinary.com/edgethoughts/image/fetch/f_auto,h_120,q_90/http://www.onscalability.com
+logoimageurl:     http://res.cloudinary.com/edgethoughts/image/fetch/f_auto,h_200,q_90/http://www.onscalability.com
 
 # Owner/author information
 owner:

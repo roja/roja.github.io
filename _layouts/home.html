@@ -56,7 +56,7 @@ Description: Awesome dude, awesome life
         <h1 itemprop="name">
             <a class="brand light" href="{{ site.url }}" itemprop="url">
 
-                {% if site.logo %}<img itemprop="logo" src="{{ site.logoimageurl }}/images/{{ site.logo }}" alt="{{ site.title }} Logo" />{% endif %}
+                {% if site.logo %}<img itemprop="logo" src="{{ site.logoimageurl }}/images/{{ site.logo }}" alt="{{ site.title }} - {{ page.headline }}" />{% endif %}
 
 <!--             <h1 class="blog-title light" itemprop="name">
                 {{ site.title }}
@@ -64,11 +64,11 @@ Description: Awesome dude, awesome life
                 
             </a>
         </h1>
-            {% if site.description != "" %}
+<!--             {% if site.description != "" %}
             <h2 class="blog-description light bordered bordered-top" itemprop="description">
                 {{ site.description }}
             </h2>
-            {% endif %}
+            {% endif %} -->
         </div>
     </div>
     {% else %}
