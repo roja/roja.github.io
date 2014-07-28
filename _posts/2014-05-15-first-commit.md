@@ -15,8 +15,8 @@ comments: false
 mathjax: null
 featured: true
 published: true
-bg_attribution:   blah
-bg_attribution_url: https://www.flickr.com/people/blah/
+bg_attribution:   
+bg_attribution_url: 
 ---
 
 >&quot;The beginning is the most important part of the work.&quot;
