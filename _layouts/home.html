@@ -74,15 +74,17 @@ Description: Awesome dude, awesome life
     {% else %}
     <div class="inner">
         <div class="container">
-            <a class="brand" href="{{ site.url }}" role="banner" itemprop="url">
-                
-                    <img itemprop="logo" src="{{ site.logoimageurl }}/images/{{ site.logo }}" alt="{{ site.title }} Logo" />
+        <h1 itemprop="name">
+            <a class="brand light" href="{{ site.url }}" itemprop="url">
 
-            <h1 class="blog-title light" itemprop="name">
+                {% if site.logo %}<img itemprop="logo" src="{{ site.logoimageurl }}/images/{{ site.logo }}" alt="{{ site.title }} - {{ page.headline }}" />{% endif %}
+
+<!--             <h1 class="blog-title light" itemprop="name">
                 {{ site.title }}
-            </h1>
+            </h1> -->
                 
             </a>
+        </h1>
         </div>
     </div>
     {% endif %}
