@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Dispatches From The Edge - July 19th to August 1st 2014"
-description: "Some of interesting things appearing in tech scene during the fortnight ending August 1st 2014"
+title: "Dispatches From The Edge - July 16th to July 30th 2014"
+description: "Some of interesting things appearing in tech scene during the fortnight ending July 30th 2014"
 headline: "From elastic search to building your own cdn all engineered for growth."
 category: dispatches
 tags: 
@@ -14,10 +14,9 @@ tags:
   - cdn
   - graph databases
   - collaborative-filtering
-image: 
-  feature: nova-1200-lookalike.jpg
-  credit: timonoko
-  creditlink: "https://www.flickr.com/photos/timonoko"
+imagefeature: nova-1200-lookalike.jpg
+imagecredit: timonoko
+imagecreditlink: "https://www.flickr.com/photos/timonoko"
 comments: true
 mathjax: null
 featured: false
