@@ -4,6 +4,7 @@ title: "Dispatches From The Edge - July 16th to July 30th 2014"
 description: "Some of interesting things appearing in tech scene during the fortnight ending July 30th 2014"
 headline: "From elastic search to building your own cdn all engineered for growth."
 category: dispatches
+permalink: /dispatches-from-the-edge-july-16th-to-july-30th-2014.html
 tags: 
   - dispatches
   - elasticsearch
