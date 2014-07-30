@@ -17,7 +17,7 @@ tags:
 imagefeature: nova-1200-lookalike.jpg
 imagecredit: timonoko
 imagecreditlink: "https://www.flickr.com/photos/timonoko"
-comments: true
+comments: false
 mathjax: null
 featured: false
 published: true
