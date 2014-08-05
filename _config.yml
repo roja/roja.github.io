@@ -1,3 +1,5 @@
+gems:
+  - jekyll-redirect-from
 title:            "On Scalability"
 description:      "Engineering for growth"
 logo:             on-scalability-logo.png
