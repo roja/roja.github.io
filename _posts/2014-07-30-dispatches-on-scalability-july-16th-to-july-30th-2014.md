@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Dispatches From The Edge - July 16th to July 30th 2014"
+title: "Dispatches On Scalability - July 16th to July 30th 2014"
 description: "Scalability news during the fortnight ending July 30th 2014"
 headline: "From elastic search to building your own cdn all engineered for growth."
 category: dispatches
