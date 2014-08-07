@@ -2,7 +2,7 @@
 layout: post
 title: "Dispatches On Scalability - August 5th 2014"
 description: "Scalability news and updates from August 5th 2014"
-headline: "From the thoughtworks technology radar to ."
+headline: "From the thoughtworks technology radar to tokumx."
 category: dispatches
 tags: 
   - dispatches
