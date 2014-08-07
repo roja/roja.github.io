@@ -13,9 +13,9 @@ tags:
   - messages
   - cloudflare
   - security
-imagefeature: nova-1200-lookalike.jpg
-imagecredit: timonoko
-imagecreditlink: "https://www.flickr.com/photos/timonoko"
+imagefeature: vintage-computers.jpg
+imagecredit: mariemosley
+imagecreditlink: "https://www.flickr.com/photos/mariemosley"
 comments: false
 mathjax: null
 featured: false
