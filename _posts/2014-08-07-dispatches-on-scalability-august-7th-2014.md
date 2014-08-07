@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Dispatches On Scalability - August 7th 2014"
-description: "Scalability news and updates from August 7th 2014"
+description: "Scalability news from August 7th 2014 - From the fluentd to penetration testing NoSQL stores."
 headline: "From the fluentd to penetration testing NoSQL stores."
 category: dispatches
 tags: 
