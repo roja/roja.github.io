@@ -1,31 +1,38 @@
 ---
 layout: post
 title: "Dispatches On Scalability - August 11th 2014"
-description: "Scalability news from August 11th 2014 - From the fluentd to penetration testing NoSQL stores."
-headline: "From the fluentd to penetration testing NoSQL stores."
+description: "Scalability news from August 11th 2014 - Presentations from QCon New York, CoreOS, Azure with Node.js and Will HBase win the NoSQL race?."
+headline: "Presentations from QCon New York, CoreOS, Azure with Node.js and Will HBase win the NoSQL race?"
 category: dispatches
 tags: 
   - dispatches
-  - mongodb
-  - ssl
-  - https
-  - aws
-  - messages
-  - cloudflare
-  - security
-imagefeature: vintage-computers.jpg
-imagecredit: mariemosley
-imagecreditlink: "https://www.flickr.com/photos/mariemosley"
+  - vert x
+  - riak
+  - apollo
+  - coreos
+  - docker
+  - azure
+  - hbase
+  - netflix
+imagefeature: blue-to-uv-laser-stage.jpg
+imagecredit: fatllama
+imagecreditlink: "https://www.flickr.com/photos/fatllama/"
 comments: false
 mathjax: null
 featured: false
 published: true
 ---
 
-Google has [announced that it is to begin to factor HTTPS / SSL into its rankings](http://googleonlinesecurity.blogspot.co.uk/2014/08/https-as-ranking-signal_6.html) causing an obvious mad dash by every SEO optimiser to ensure the sites they represent are servicing secure requests. [CloudFlare, the DDoS / DNS / CDN provider,](http://blog.cloudflare.com/google-now-factoring-https-support-into-ranking-cloudflare-on-track-to-make-it-free-and-easy) have responded with an announcement that they intend to provide free SSL certificates and protocol enablement to everyone using their service. This should instantly enable millions of sites to the make use of the enhanced security which is excellent news for all kinds of reasons and the [performance and scalability impact should be near to zero.](https://www.imperialviolet.org/2010/06/25/overclocking-ssl.html)
+InfoQ has had a fantastic few days and has pushed out a whole host of excellent content from there QCon 2014 in New York. First there is a presentation by Tim Fox from Red Hat around using the lovely reactive java / polyglot, node.js inspired, framework [Vert.X to develop high performance reactive web applications.](http://www.infoq.com/presentations/performance-reactive-vertx?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global) Next up [Aviran Mordo introduces Wix's architecture,](http://www.infoq.com/presentations/wix-architecture?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global) a highly available eventually consistent system, along with patterns for rendering many websites with a relatively small number of servers, handling 700M HTTP requests/day and have some tight SLA's for their huge user base. [Sean Cribbs discusses the theory behind several new data types introduced within Basho's version 2.0 of Riak.](http://www.infoq.com/presentations/data-modeling-riak?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global) Aiming to reduce the "difficulty" when it comes to operating data storage and conflict resolution when running large scale deployments. Finally [Jeff Johnson introduces Apollo, facebooks hierarchical NoSQL data system](http://www.infoq.com/presentations/scale-facebook-big-data?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global) meant to deal with their vast distributed storage needs. Built using Thrift2 and making use of a Paxos-style / Raft quorum protocol for consistency and RocksDB for K/V storage it looks like they are using if for all sorts of internal systems.
 
-[There an article on the AWS Blog](https://aws.amazon.com/blogs/aws/all-your-data-fluentd/) about Fluentd and how it can be used to stream a vast amount of log data from decoupled components. Fluentd is an open source data collector designed to unify log management and has a pluggable architecture to allow that data to be stored in a vast array of different datastores. Obviously they pitched its use within there IaaS, however, it is a component entirely ready to be deployed anywhere and can ingest a massive number of messages (~15,000 events/sec on a single core.) [There is an excellent into on the Fluentd website](http://www.fluentd.org/architecture) and a good explanation around how it can [reduce complexity in log management](http://www.fluentd.org/blog/unified-logging-layer) for  typical multi-component architectures.
+[CoreOS have released the first stable build of their entire re-architected, Linux distribution](https://coreos.com/blog/stable-release/), providing docker container management, service discovery with Etcd the highly-available key value store, and process management with Fleet, a distributed init system for clusters. [There is lots more detail about CoreOS and what they aim to achieve in the long run,](https://coreos.com/) it is however fantastic to see them progressing towards their first full release as there end goal is not too different than clustered deployment utopia.
 
-Planet Cassandra released a [nice little talk about the use of messaging within SimpleReach](http://youtu.be/jFrC1rHZEcM) in order to cater to their 3.75 billion page views a month and 7 billion events per day. In the video Eric Lubow, CTO of SimpleReach, discusses why messaging is an important part of a distributed system stack explaining that, they are often overlooked because the prevailing sentiment is that the storage and processing engines are the most important aspects of the system. He looks at the impact on scalability, elasticity, deliverability and redundancy. 30 minutes well spent!
+Bruno Terkaly has written a nice little getting started article for [making use of azure service bus from a node.js application deployed into azure web sites.](http://blogs.msdn.com/b/brunoterkaly/archive/2014/08/10/node-js-in-azure-web-sites-and-service-bus-installing-tools-and-reading-messages-from-cloud-hosted-queues.aspx) He looks though the basics including how to setup queues and even how to setup web matrix for easy development.
 
-Finally, for those of us with a bit of a security bent, Francis Alexander gave an interesting presentation around [penetration testing and exploiting NoSQL datastores](http://youtu.be/WWAdMqr_vAg) at the Hack in Paris conference. He gives good coverage of Good coverage of MongoDB, CouchDB and Redis and highlights quite a few security complications. Interesting watching for anyone who relies on the current grate and good of the NoSQL world.
+[Will HBase win the NoSQL race? Is there a race? Andrew J. Brust thinks there is](http://gigaom.com/2014/08/10/is-hbases-slow-and-steady-approach-winning-the-nosql-race/) and sets about answering his own question focusing on the momentum in the HBase world right now with innovative add-ons / layers which exploit the HBase engine; Hive, MapR, Reactor etc... I can't say I am entirely convinced however it's a nice list of links to some fantastic solutions. Especially worth checking out is [Continuuity Reactor](http://www.continuuity.com/products/reactor) and there [newly released](http://www.slideshare.net/alexbaranau/transactions-over-hbase) open source [HBase transaction engine Tephra.](https://github.com/continuuity/tephra)
+
+Finally [a nice little video presentation about the use of micro services at NetFlix.](https://www.youtube.com/watch?v=LEcdWVfbHvc)
+
+Fin.
+
+
