@@ -6,6 +6,7 @@ tags: [about, me, roja buck, vouchercloud, onscalability]
 headline: Who's behind the curtain?
 image:
   feature: roja-and-tash-in-flam.jpg
+description: "Roja Buck is the Chief Architect at vouchercloud and is based in Bristol, Uk. On Scalability is his blog about the tech world and engeneering systems and teams for growth."
 ---
 <figure>
   <img src="{{ site.galleryimageurl }}/images/roja-and-tash-in-flam.jpg" alt="My wife Natasha and I in Flåm">
