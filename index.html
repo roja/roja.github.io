@@ -1,0 +1,65 @@
+<!-- This is a web page -->
+<html lang="en">
+  <head>
+    <title>Arbia & Roja</title>
+    <style>
+      /* We center the container horizontally and vertically in the page */
+      .container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      /* Make the github-logo and linked-logo have a maximum height of 100px */
+      #github-logo,
+      #linkedin-logo {
+        max-height: 100px;
+      }
+
+      /* make columns sit next to one another */
+      .row {
+        display: flex;
+      }
+      /* make the columns take up 50% of the row and center their content */
+      .col {
+        flex: 50%;
+        text-align: center;
+      }
+
+      /* make the logo take up 100% of the column */
+      #arbia-logo {
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- A container -->
+    <div class="container">
+      <!-- 2 rows to put our content into -->
+      <div class="row">
+        <div class="col">
+          <!-- The arbia logo arbia-logo.png -->
+          <img src="arbia-logo.png" alt="Arbia logo" id="arbia-logo" />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <!-- a linkedin logo linked to rojabuck's linkedin profile -->
+          <a href="https://www.linkedin.com/in/rojabuck">
+            <img
+              src="linkedin-logo.png"
+              alt="LinkedIn logo"
+              id="linkedin-logo"
+            />
+          </a>
+        </div>
+        <div class="col">
+          <!-- a github logo linked to roja's github profile at https://github.com/roja -->
+          <a href="https://github.com/roja">
+            <img src="github-logo.png" alt="GitHub logo" id="github-logo" />
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
